@@ -1,0 +1,10 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.list{
+    background-color: bisque;
+    border: solid 1em greenyellow;
+} 
+ul,p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
