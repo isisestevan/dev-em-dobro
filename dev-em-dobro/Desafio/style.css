@@ -1,0 +1,28 @@
+.cabecalho-moda{
+    font-size: 18px;
+    background-color: #BB86FC;
+    
+    
+} 
+
+.conteudo-table{
+    background-color: #424250;
+    font-size: 15px;
+    
+    
+} 
+.cabecalho-casa{
+    font-size: 18px;
+    background-color: #00C4B4;
+} 
+th,td{
+ padding: 8px;
+} 
+
+.cabecalho-moda,.conteudo-table,.cabecalho-casa{
+    color: white;
+    
+}
+.titulo{
+    color: rgb(116, 115, 113);
+}
