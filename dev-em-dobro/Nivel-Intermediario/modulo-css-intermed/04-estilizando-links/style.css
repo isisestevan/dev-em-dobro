@@ -1,0 +1,15 @@
+a{
+    cursor: auto;
+} 
+a:visited {
+    color: yellow;
+} 
+
+a:active{
+    color: aquamarine;
+} 
+
+a:hover{
+    background-color: blueviolet;
+    color: white;
+}
