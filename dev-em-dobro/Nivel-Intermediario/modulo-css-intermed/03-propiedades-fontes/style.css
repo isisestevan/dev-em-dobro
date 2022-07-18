@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+.fonte-normal{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.fonte-customizada{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
