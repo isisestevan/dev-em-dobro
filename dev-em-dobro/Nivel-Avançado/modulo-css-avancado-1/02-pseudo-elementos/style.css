@@ -1,0 +1,16 @@
+.paragrafo::first-letter{
+    color: aquamarine;
+} 
+
+.paragrafo::first-line{
+    color: blue;
+} 
+
+li::marker{
+    color: red;
+    font-size: 40px;
+} 
+
+h2::before{
+    content: url(logo.jpg);
+}
