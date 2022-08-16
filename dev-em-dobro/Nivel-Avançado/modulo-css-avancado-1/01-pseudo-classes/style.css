@@ -2,10 +2,6 @@ p:first-child{
     color: aqua;
 } 
 
-p:not(.classe){
-
-} 
-
 li:nth-child(n+2):nth-child(-n+5){
   color: red;
 }
