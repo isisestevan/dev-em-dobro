@@ -1,0 +1,48 @@
+h1{
+    color: blue;
+}
+
+.paragrafo{
+    color: green;
+} 
+
+#menu{
+    margin-left: 100px;
+} 
+
+*{
+ padding: 0;
+} 
+
+.titulo{
+    font-size: 30px;
+}
+
+.titulo.vermelho{
+    color: red;
+} 
+
+.titulo.laranja{
+    color: rgb(255, 166, 0);
+} 
+
+p,span{
+    font-size: 10px;
+}
+
+.sobre .texto{
+    color: pink;
+}
+
+div > p{
+    color: purple;
+} 
+
+
+div + p{
+    color: brown;
+} 
+
+a[target=_blank]{
+    color:red;
+}
