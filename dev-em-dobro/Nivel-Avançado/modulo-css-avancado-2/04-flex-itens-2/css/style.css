@@ -1,0 +1,35 @@
+.flex-0{
+ flex: 0;
+} 
+
+.flex1{
+    flex: 1;
+} 
+.flex2{
+    flex: 0 1 100px;
+} 
+.wrap{
+    flex-wrap: wrap;
+}
+.item.item3{
+    order: 1;
+} 
+
+.align-self .item2{
+    align-self: auto;
+} 
+
+.align-self.start .item3{
+    align-self: flex-start;
+} 
+.align-self.end .item1{
+    align-self: flex-end;
+} 
+
+.align-self.center .item3{
+    align-self: center;
+}
+
+.align-self.stretch{
+    align-self: stretch;
+}
