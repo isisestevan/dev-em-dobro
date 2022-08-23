@@ -1,0 +1,14 @@
+.container{
+    font-size: 24px;
+    border: solid .5px;
+    display: flex;
+    width: 500px;
+   
+} 
+
+.item{
+    background-color: plum;
+    margin: 5px; 
+    width: 100px;
+    
+}

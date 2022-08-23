@@ -1,0 +1,24 @@
+.grow1{
+ flex-grow: 0;
+} 
+.grow2{
+    flex-grow: 2;
+} 
+
+.basis-auto{
+    flex-basis: auto;
+} 
+
+.basis200{
+    flex-basis: 200px;
+} 
+
+.shrink2{
+    flex-shrink: 2;
+} 
+.shrink0{
+    flex-shrink: 0;
+} 
+.shrink3{
+    flex-shrink: 3;
+}
