@@ -1,65 +1,58 @@
-.header{
+html {
+    font-size: 62.5%;
+    /* utilizamos isso para trasnformar nossa font-size que era de 16px por padrão pra 10px e ai podemos usar o rem cm mais facilidade. Ex( se queremos atribuir 20px só precisamo colocar 2rem)*/
+}
+
+.body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header {
     font-size: 15px;
     color: #000000;
     display: flex;
-    font-family: 'Public Sans', sans-serif;
-    font-weight: 400;
     justify-content: space-between;
     align-items: center;
-    margin-top: 45px;
-} 
-
-.menu{
-    display: flex;
-   
-} 
-
-.logo{
-    background: url(./imagem/logo.png) center center no-repeat;
-    margin: 45px 694px 0 44px;
-    width: 45px;
-    height: 42px;
-    
-} 
-
-.logo h1{
-    margin-top: 10px;
-   margin-left: 45px;
-   font-weight: 800;
-   color: #000000;
-   font-size: 20px
-   ;
+    padding: 45px;
 }
 
-.menu li{
-    margin-left: 30px;
-} 
+.menu {
+    display: flex;
+    align-items: center;
 
-.botao{ 
-    background-color:#5BC241 ;
-    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo h1 {
+    font-weight: 800;
+    color: #000000;
+    font-size: 2rem;
+}
+
+.menu li a{
+   padding: 10px 5px;
+   margin-left: 1.5rem;
+   transition: 0.3s ease-in-out; /*transição para o hover*/
+   font-size: 1.5rem;
+}
+
+a.botao {
+    background-color: #5BC241;
+    padding: 10px 20px;
     border-radius: 10px;
     color: white;
-    margin-left: 21px;
-    margin-right: 66px;
-} 
+    margin-left: 3rem;
+}
 
-li a:hover{
+.menu li a:hover {
     background-color: #5BC241;
     padding: 10px;
     color: white;
-} 
-
-@media(max-width: 375px){
-    .header{
-        display: flex;
-        flex-wrap: wrap;
-    }
-   
-    .menu li{
-        display: flex;
-        justify-content: center;
-    }
- 
-   
 }
+
