@@ -1,34 +1,47 @@
+.html {
+    font-family: 'Public Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    min-height: 100vh; /*fazemos isso para que a main ocupe todo o espaço*/
+    align-items: center;
+    justify-content: center; /*so podemos usar isso por causa do min-height pq ai temos um alinhamento vertical q é o alignt-iten e um horizontal*/
+
+}
+.section .imagens {
+    width: 335px;
+    /*largura e altura da imagem*/
+    height: 431px;
+    position: relative;
+}
 .section{
     display: flex;
-    
-} 
-
-.imagens{
-    padding:128px 18px;
+    gap:20px; /*espaçamento entre elas*/
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
-
-.info{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    flex-direction: column;
+.section .imagens img{
+    width: 100%;
+}
+.info {
     position: absolute;
-    font-family: 'Public Sans', sans-serif;
-    top:458px;
-   margin-left: 26px;
-   margin-right: 220px;
-} 
-
-.info h2{
-    font-weight: 700;
+    left: 20px;
+    bottom: 40px;
     color: #FFFFFF;
-    font-size: 30px;
 }
 
-.info h3{
+.info h2 {
+    font-weight: 700;
+   
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.info h3 {
     font-weight: 300;
     font-size: 17px;
-    color:  #FFFFFF;
-    
+
+
 }
