@@ -1,0 +1,102 @@
+html {
+    background: url(../images/bg-desktop.svg) center no-repeat no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.header .logo {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    /*fazemos isso para que a main ocupe todo o espaço*/
+    align-items: center;
+    justify-content: center;
+    /*so podemos usar isso por causa do min-height pq ai temos um alinhamento vertical q é o alignt-iten e um horizontal*/
+
+    gap: 30px;
+}
+
+.container .imagem-telas {
+    margin-left: 50px;
+    width: 100%;
+
+}
+
+.container .texto {
+    margin-right: 200px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+.container .texto h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.container .texto p {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.container .texto .btn-register{
+    width: 100px;
+    background-color: #FFF;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+
+} 
+.container .texto .btn-register a{
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+   
+}
+.container .texto .btn-register a:hover{
+    color: hsl(300, 69%, 71%);
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    font-size: 30px;
+
+}
+
+.social a {
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    /* border:2px solid #fff;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;*/
+    /*n consegui centralizar a borda*/
+}
+
+.social a:last-child {
+    margin-right: 150px;
+} 
+
+.social a:hover{
+    color: hsl(300, 69%, 71%);
+}
