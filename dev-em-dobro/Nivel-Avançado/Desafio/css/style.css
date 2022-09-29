@@ -2,6 +2,11 @@ html {
     background: url(../images/bg-desktop.svg) center no-repeat no-repeat;
     background-size: cover;
     background-color: hsl(257, 40%, 49%);
+} 
+
+body{
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .header .logo {
@@ -12,18 +17,17 @@ html {
 
 }
 
-.container {
+.container { 
     display: flex;
-    min-height: 100vh;
-    /*fazemos isso para que a main ocupe todo o espaço*/
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     /*so podemos usar isso por causa do min-height pq ai temos um alinhamento vertical q é o alignt-iten e um horizontal*/
 
     gap: 30px;
 }
 
-.container .imagem-telas {
+.container .imagem-telas { 
+    margin-top: 120px;
     margin-left: 50px;
     width: 100%;
 
@@ -77,10 +81,12 @@ html {
     justify-content: flex-end;
     align-content: flex-end;
     font-size: 30px;
+    margin-top: 150px;
 
 }
 
-.social a {
+.social a { 
+    display: flex;
     color: #fff;
     margin-left: 20px;
     margin-bottom: 30px;
